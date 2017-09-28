@@ -1,0 +1,856 @@
+<html style="font-size: 55.2px;"><head>
+    <script type="text/javascript">
+        var basepath = "http://m.mr-x.com.cn:80";
+    </script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="pragram" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache,must-revalidate">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="referrer" content="always">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="pragram" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache,must-revalidate">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="referrer" content="always">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<script type="text/javascript">
+	var basepath="http://m.mr-x.com.cn:80";
+</script>
+<link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/global/global.css">
+<link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/global/common.css">
+<link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/global/animation.css">
+<script type="text/javascript" src="./static/jeasyui/jquery.min.js"></script>
+<script type="text/javascript" src="/kabu/static/backend.js"></script>
+<script type="text/javascript" src="/kabu/static/ajax.utils.js"></script>
+<script type="text/javascript" src="/kabu/static/form.utils.js"></script>
+<script type="text/javascript" src="/kabu/static/js/common/json2.js"></script>
+<script type="text/javascript" src="/kabu/static/jquery.form.js"></script>
+<script>
+    function fontAdapt(){
+      var html = document.documentElement;
+      var windowWidth = html.clientWidth;
+      var offsetWidth=html.offsetWidth;
+      var maxWidth=Math.max(windowWidth,offsetWidth);
+      html.style.fontSize = maxWidth / 7.5 + 'px';
+    }
+    fontAdapt();
+    window.onresize=function(){
+      fontAdapt();
+    };
+</script>
+ 
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/myInfo.css">
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/myShop.css">
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/myTop.css">
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/myTribe.css">
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/myIntroduce.css">
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/myRou.css">
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/myProduct.css">
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/myEditinfo.css">
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/pop_chooseSex.css">
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/pop_phoneUnionid.css">
+    <link rel="stylesheet" type="text/css" href="http://m.mr-x.com.cn:80/static/weixin/css/userDetail.css">
+
+
+<!--    <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>-->
+    <script type="text/javascript" src="/kabu/static/js/mrx/weixin_myInfo.js"></script>
+    <script type="text/javascript" src="/kabu/static/js/mrx/weixin_myBl.js"></script>
+    <script type="text/javascript" src="/kabu/static/js/mrx/weixin_myCj.js"></script>
+    <script type="text/javascript" src="/kabu/static/js/mrx/weixin_myTop.js"></script>
+    <script type="text/javascript" src="/kabu/static/js/mrx/weixin_myShop.js"></script>
+    <script type="text/javascript" src="/kabu/static/js/mrx/weixin_myProduct.js"></script>
+    <script type="text/javascript" src="/kabu/static/js/mrx/weixin_gameDetail.js"></script>
+    <script type="text/javascript" src="/kabu/static/js/mrx/weixin_myInfo_notify.js"></script>
+    <script type="text/javascript" src="/kabu/static/js/mrx/weixin_myEditInfo.js"></script>
+    <script type="text/javascript" src="/kabu/static/js/mrx/weixin_chooseSex.js"></script>
+</head>
+<body onload="getSex()">
+
+<div class="layout">
+    <!-- 段位区域 -->
+    <div class="myinfo_duan">
+		<span class="level">
+			<img alt="" src="http://m.mr-x.com.cn:80/static/weixin/images/level_5.png">
+		</span>
+
+        
+            <i class="duan1"></i>
+        
+            <i class="duan2"></i>
+        
+            <i class="duan3"></i>
+        
+            <i class="duan4"></i>
+        
+            <i class="duan5"></i>
+        
+            <i class="duan6"></i>
+        
+
+    </div>
+    <!-- 上按钮区域 -->
+    <div class="myinfo_btn">
+        <a href="javascript:;" class="myinfo_left" id="myinfo_left"><label class="text_left">1939</label></a>
+        <a href="javascript:;" class="myinfo_right" id="myinfo_right">
+            <label class="text_right">8234</label>
+        </a>
+
+    </div>
+    <!-- 昵称区域 -->
+	<span class="myinfo_name">
+            
+
+            
+	        
+			
+			
+        kabu</span>
+
+
+    
+    <i class="userDetail_edit"></i>
+
+    
+
+    <span class="myinfo_time">到期时间：2020-02-07</span>
+    
+    <!-- 角色区域-->
+    <div class="myinfo_role">
+        <img class="role_img" id="roleImgId" src="http://m.mr-x.com.cn:80/static/weixin/images/main_role_6.png">
+    </div>
+    <!-- 底部点击区域-->
+    <div class="myinfo_bottom" id="myinfo_menu">
+        <a href="javascript:;" class="btn_cj" id="bg_below_button_id_0" style="display: block;">
+            
+            
+            
+        </a>
+        <a href="javascript:;" class="btn_bl" id="bg_below_button_id_1" style="display: block;">
+            
+            
+            
+        </a>
+        <a href="javascript:;" class="btn_ph" id="bg_below_button_id_2" style="display: block;">
+            
+            
+            
+        </a>
+        <a href="javascript:;" class="btn_js" id="bg_below_button_id_3">
+            
+            
+            
+        </a>
+    </div>
+</div>
+<!-- 遮罩层 -->
+<div class="popup" style="display: none;"></div>
+
+
+<!-- 成就 start -->
+<div class="pop_cj" id="pop_1" style="display: none;">
+    <img id="main_enable_cj" class="pop_cj_bg" src="http://m.mr-x.com.cn:80/static/weixin/images/pop_cj_bg.png">
+
+    <div class="pop_cj_content">
+        <ul class="pop_cj_con" id="pop_cj_con_id">
+        </ul>
+    </div>
+</div>
+<!-- 成就 end -->
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var basepath="http://m.mr-x.com.cn:80";
+</script>
+
+<!-- 未加入部落的首框 start -->
+<div class="pop_bl" id="pop_2" style="display: none;">
+	<div class="bl_dd" style="display: none;">
+		<img class="pop_bl_bg" src="http://m.mr-x.com.cn:80/static/weixin/images/pop_bl_bg.png">
+		<div class="pop_bl_dd_content">
+			<input type="text" class="bl_search_input" id="bl_search_input_id" placeholder="输入部落名称">
+			<a href="javascript:;" class="bl_search_btn" id="bl_searchBtn_id"></a>
+			<a href="javascript:;" class="bl_search_add" id="bl_createBtn_id"></a>
+		</div>
+	</div>
+</div>
+<!-- 未加入部落的首框 end -->
+
+<!-- 去创建部落 start -->
+<div class="pop_bl" id="bl_create_div_id" style="display: none;">
+	<div class="bl_add" style="display: none;">
+		<img class="pop_bl_bg" src="http://m.mr-x.com.cn:80/static/weixin/images/pop_bl_bg.png">
+		<div class="pop_bl_add_content">
+		<input type="text" class="bl_search_input" name="create_bl_name" id="create_bl_name">
+		<textarea class="bl_add_textarea" name="create_bl_comment" id="create_bl_comment"></textarea>
+		
+		<!-- 创建部落按钮 -->
+		<a href="javascript:;" class="bl_add_btn" id="create_bl_btn"></a>
+		</div>
+	</div>
+</div>
+<!-- 去创建部落 end -->
+
+<!-- 搜索部落 start -->
+<div class="pop_bl" id="bl_search_div_id" style="display: none;">
+	<div class="bl_search" style="display: none;">
+		<img class="pop_bl_bg" src="http://m.mr-x.com.cn:80/static/weixin/images/pop_bl_bg.png">
+		<div class="pop_bl_search_content">
+		<input type="text" class="bl_search_input" id="searchDetailInputId">
+		
+		<!-- 搜索部落明细的搜索按钮 -->
+		<a href="javascript:;" class="bl_search_btn" id="searchAForDivListId"></a>
+		<ul id="search_ul_id">
+			<!-- 
+			<li>
+				<span>MRXCLUD</span>
+				<a href="javascript:;" class="bl_search_tab_btn"></a>
+			</li>
+			 -->
+		</ul>
+		</div>
+	</div>
+</div>
+<!-- 搜索部落 end -->
+
+<!-- 我的部落明细 start -->
+<div class="pop_bl" id="myBlInfo_div_id" style="display: none;">
+	<div class="bl_con" style="display: none;">
+		<img class="pop_bl_bg" src="http://m.mr-x.com.cn:80/static/weixin/images/pop_bl_bg.png">
+		<div class="pop_bl_con_content">
+			<span class="bl_con_name" id="bl_con_name_id"></span>
+			<span class="bl_con_hua" id="bl_con_hua_id"></span>
+			<p class="bl_con_detail" id="bl_con_detail_id"></p>
+			<a href="javascript:;" class="bl_con_exit" onclick="exitsGroup()"></a>
+			<ul id="bln_ul_id">
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- 我的部落明细 end -->
+
+
+<!-- 排行 start -->
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var basepath="http://m.mr-x.com.cn:80";
+</script>
+
+
+<div class="pop_ph" id="pop_3" style="display: none;">
+	<img id="main_enable_top" class="pop_ph_bg" src="http://m.mr-x.com.cn:80/static/weixin/images/pop_ph_bg.png">
+	<div class="pop_ph_content">
+		<p class="last_time" id="last_time_id">我的排名：0</p>
+		<div id="myTopSeason_id"> <p class="ph_list ph_list1"> <span>A萝</span> <label>6302</label> </p>  <p class="ph_list ph_list2"> <span>菜大仙</span> <label>6156</label> </p>  <p class="ph_list ph_list3"> <span>Paganini</span> <label>5619</label> </p> </div>
+		<div class="mytop_tab clearfix">
+			<a href="javascript:;" class="hover">
+				<img class="ph_tab_img" src="http://m.mr-x.com.cn:80/static/weixin/images/ph_tab1.png">
+			</a>
+			<a href="javascript:;">
+				<img class="ph_tab_img" src="http://m.mr-x.com.cn:80/static/weixin/images/ph_tab2.png">
+			</a>
+		</div>
+		<div class="mytop_tab_con">
+			<div class="mytop_tab_con1">
+				<ul id="myTop_ul_all_id"> <li class="mytop_odd"> <i class="mytop_first">1</i> <span>A萝</span> <label>4104</label> </li>  <li class="mytop_even"> <i class="mytop_second">2</i> <span>大爸爸</span> <label>3730</label> </li>  <li class="mytop_odd"> <i class="mytop_three">3</i> <span>啾啾酱</span> <label>3708</label> </li>  <li class="mytop_even"> <i class="mytop_other">4</i> <span>微笑的姚曼曼</span> <label>3637</label> </li>  <li class="mytop_odd"> <i class="mytop_other">5</i> <span>菜大仙</span> <label>3607</label> </li>  <li class="mytop_even"> <i class="mytop_other">6</i> <span>小辣椒</span> <label>3584</label> </li>  <li class="mytop_odd"> <i class="mytop_other">7</i> <span>Well</span> <label>3545</label> </li>  <li class="mytop_even"> <i class="mytop_other">8</i> <span>Linda</span> <label>3536</label> </li>  <li class="mytop_odd"> <i class="mytop_other">9</i> <span>Jimmy</span> <label>3532</label> </li>  <li class="mytop_even"> <i class="mytop_other">10</i> <span>jimmykou</span> <label>3521</label> </li>  <li class="mytop_odd"> <i class="mytop_other">11</i> <span>佳佳</span> <label>3478</label> </li>  <li class="mytop_even"> <i class="mytop_other">12</i> <span>幼儿园老大</span> <label>3478</label> </li>  <li class="mytop_odd"> <i class="mytop_other">13</i> <span>TonyC</span> <label>3446</label> </li>  <li class="mytop_even"> <i class="mytop_other">14</i> <span>江</span> <label>3414</label> </li>  <li class="mytop_odd"> <i class="mytop_other">15</i> <span>哇哇仔</span> <label>3408</label> </li>  <li class="mytop_even"> <i class="mytop_other">16</i> <span>iot</span> <label>3390</label> </li>  <li class="mytop_odd"> <i class="mytop_other">17</i> <span>旷兮兮</span> <label>3389</label> </li>  <li class="mytop_even"> <i class="mytop_other">18</i> <span>叶熊猫宝宝</span> <label>3377</label> </li>  <li class="mytop_odd"> <i class="mytop_other">19</i> <span>eason fang</span> <label>3341</label> </li>  <li class="mytop_even"> <i class="mytop_other">20</i> <span>小7</span> <label>3341</label> </li>  <li class="mytop_odd"> <i class="mytop_other">21</i> <span>程大拿</span> <label>3327</label> </li>  <li class="mytop_even"> <i class="mytop_other">22</i> <span>呵呵</span> <label>3326</label> </li>  <li class="mytop_odd"> <i class="mytop_other">23</i> <span>怪兽。</span> <label>3286</label> </li>  <li class="mytop_even"> <i class="mytop_other">24</i> <span>我7我T</span> <label>3280</label> </li>  <li class="mytop_odd"> <i class="mytop_other">25</i> <span>PostureL</span> <label>3263</label> </li>  <li class="mytop_even"> <i class="mytop_other">26</i> <span>Pink大人</span> <label>3253</label> </li>  <li class="mytop_odd"> <i class="mytop_other">27</i> <span>Heart</span> <label>3218</label> </li>  <li class="mytop_even"> <i class="mytop_other">28</i> <span>草草</span> <label>3210</label> </li>  <li class="mytop_odd"> <i class="mytop_other">29</i> <span>吾皇</span> <label>3201</label> </li>  <li class="mytop_even"> <i class="mytop_other">30</i> <span>helpme</span> <label>3194</label> </li>  <li class="mytop_odd"> <i class="mytop_other">31</i> <span>BT</span> <label>3184</label> </li>  <li class="mytop_even"> <i class="mytop_other">32</i> <span>熊</span> <label>3183</label> </li>  <li class="mytop_odd"> <i class="mytop_other">33</i> <span>小熊猫的睿睿殿下</span> <label>3163</label> </li>  <li class="mytop_even"> <i class="mytop_other">34</i> <span>瑾希</span> <label>3156</label> </li>  <li class="mytop_odd"> <i class="mytop_other">35</i> <span>十万伏特</span> <label>3152</label> </li>  <li class="mytop_even"> <i class="mytop_other">36</i> <span>anita</span> <label>3152</label> </li>  <li class="mytop_odd"> <i class="mytop_other">37</i> <span>高贵冷艳的土豆泥</span> <label>3151</label> </li>  <li class="mytop_even"> <i class="mytop_other">38</i> <span>淘气天尊</span> <label>3149</label> </li>  <li class="mytop_odd"> <i class="mytop_other">39</i> <span>tiffany</span> <label>3144</label> </li>  <li class="mytop_even"> <i class="mytop_other">40</i> <span>文赫</span> <label>3143</label> </li>  <li class="mytop_odd"> <i class="mytop_other">41</i> <span>小阳光</span> <label>3138</label> </li>  <li class="mytop_even"> <i class="mytop_other">42</i> <span>Anna</span> <label>3135</label> </li>  <li class="mytop_odd"> <i class="mytop_other">43</i> <span>小2</span> <label>3126</label> </li>  <li class="mytop_even"> <i class="mytop_other">44</i> <span>于雯</span> <label>3125</label> </li>  <li class="mytop_odd"> <i class="mytop_other">45</i> <span>Hunter</span> <label>3124</label> </li>  <li class="mytop_even"> <i class="mytop_other">46</i> <span>表弟</span> <label>3122</label> </li>  <li class="mytop_odd"> <i class="mytop_other">47</i> <span>何一航</span> <label>3112</label> </li>  <li class="mytop_even"> <i class="mytop_other">48</i> <span>高傲</span> <label>3111</label> </li>  <li class="mytop_odd"> <i class="mytop_other">49</i> <span>cc</span> <label>3099</label> </li>  <li class="mytop_even"> <i class="mytop_other">50</i> <span>扒开你的大菊花</span> <label>3098</label> </li> </ul>
+			</div>
+			<div class="mytop_tab_con2">
+				<ul id="myTop_ul_group_id">
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 排行 end -->
+
+
+<!-- 集市 start -->
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var basepath="http://m.mr-x.com.cn:80";
+</script>
+
+
+<!-- 集市 start -->
+<div class="pop_js" id="pop_4" style="display: none;">
+	<a href="javascript:;" class="product_enter_btn" id="product_water_title"></a>
+	<img id="main_enable_shop" class="pop_js_bg" src="http://m.mr-x.com.cn:80/static/weixin/images/pop_js_bg.png">
+	<div class="pop_js_content">
+		<p id="vipMainPid">
+			<label id="vipEndTimeId">2020-02-07</label>
+		</p>
+		<div id="shopDataDiv">
+		<!-- 
+			<a href="javascript:;" class="js_pic1" >
+				<span>&yen;299</span>
+				<input type="hidden" id="vipLevelValue1" >
+				<input type="hidden" id="money1" >
+			</a>
+		 -->
+		</div>
+		<input type="hidden" id="vip">
+	</div>
+	
+	<div class="pop_js_common_content" id="pop_js_common_content_id">
+		<input class="pop_js_invitation_code" type="text" id="invitation_code" name="invitation_code">
+		<a href="javascript:;" class="pop_js_vip_btn" id="pop_js_vip_btn"></a>
+	</div>
+</div>
+<!-- 集市 end -->
+<!-- 集市 end -->
+
+<!--段位 start  -->
+<div class="pop_dw" id="pop_5" style="display: none;">
+    <div class="dw_first">
+        <span>I</span>
+        <label>0-300</label>
+
+        <div class="ren ren1">
+            <i class="dw_use"></i>
+            <img class="dw_ren" src="http://m.mr-x.com.cn:80/static/weixin/images/dw_ren1.png">
+        </div>
+        <div class="ren ren2">
+            <i class="dw_use"></i>
+            <img class="dw_ren" src="http://m.mr-x.com.cn:80/static/weixin/images/dw_ren2.png">
+        </div>
+        <div class="ren ren3">
+            <i class="dw_use"></i>
+            <img class="dw_ren" src="http://m.mr-x.com.cn:80/static/weixin/images/dw_ren3.png">
+        </div>
+    </div>
+    <div class="dw_second">
+        <span>I</span>
+
+        <p>
+            <i class="dw_top1"></i>
+            <i class="dw_top2"></i>
+            <i class="dw_top3"></i>
+            <i class="dw_top4"></i>
+            <i class="dw_top5"></i>
+        </p>
+        <label>0-300</label>
+
+        <div class="ren ren1">
+            <i class="dw_use"></i>
+            <img class="dw_ren" src="http://m.mr-x.com.cn:80/static/weixin/images/dw_ren4.png">
+        </div>
+        <div class="ren ren2">
+            <i class="dw_use"></i>
+            <img class="dw_ren" src="http://m.mr-x.com.cn:80/static/weixin/images/dw_ren5.png">
+        </div>
+        <div class="ren ren3">
+            <i class="dw_use"></i>
+            <img class="dw_ren" src="http://m.mr-x.com.cn:80/static/weixin/images/dw_ren6.png">
+        </div>
+    </div>
+</div>
+<!--段位 end  -->
+
+
+<input type="hidden" value="" id="firstName">
+<input type="hidden" value="" id="firstTrophy">
+<input type="hidden" value="" id="firstRou">
+<input type="hidden" value="" id="firstCreate_datetime">
+
+<input type="hidden" value="" id="secondName">
+<input type="hidden" value="" id="secondTrophy">
+<input type="hidden" value="" id="secondRou">
+<input type="hidden" value="" id="secondCreate_datetime">
+
+<!--战绩 start  -->
+<div class="pop_zj" id="pop_6" style="display: none;">
+    <div class="pop_zj_top">
+        <span class="zj_bs" id="max_trophy_id"> </span>
+        <span class="zj_jb" id="trophy_id"></span>
+        <span class="zj_cs" id="game_sl_count_id"></span>
+    </div>
+    <div class="pop_zj_con">
+        <ul id="zj_ul_id">
+            <!--
+                <li class="odd">
+                    <span>普通村民</span>
+                    <label>1小时前</label>
+                </li>
+                <li class="even">
+                    <span>普通村民</span>
+                    <label>1小时前</label>
+                </li>
+                <li class="odd">
+                    <span>普通村民</span>
+                    <label>1小时前</label>
+                </li>
+                <li class="even">
+                    <span>普通村民</span>
+                    <label>1小时前</label>
+                </li>
+                 -->
+        </ul>
+    </div>
+</div>
+<!--战绩 end  -->
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var basepath="http://m.mr-x.com.cn:80";
+</script>
+<!--game detail  -->
+<div class="pop_detail" id="pop_detail" style="display: none;">
+	<!-- 
+	
+	<a href="javascript:;" class="dk1 hover">
+		<i class="game_jiaobiao">1</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		<div class="style1">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_2"></i>
+			<i class="biao_postion_3"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+	</a>
+	<a href="javascript:;" class="dk2">
+		<i class="game_jiaobiao">2</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		<div class="style1">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_2"></i>
+			<i class="biao_postion_3"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+	</a>
+	<a href="javascript:;" class="dk3">
+		<i class="game_jiaobiao">3</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		
+		<div class="style2">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_3"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+		
+	</a>
+	<a href="javascript:;" class="dk4">
+		<i class="game_jiaobiao">4</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		
+		<div class="style3">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_2"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+	</a>
+	<a href="javascript:;" class="dk5">
+		<i class="game_jiaobiao">5</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		
+		<div class="style3">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_2"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+	</a>
+	<a href="javascript:;" class="dk6">
+		<i class="game_jiaobiao">6</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		<div class="style1">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_2"></i>
+			<i class="biao_postion_3"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+		
+	</a>
+	<a href="javascript:;" class="dk7">
+	<i class="game_jiaobiao">7</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		
+		<div class="style2">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_3"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+		
+	</a>
+	<a href="javascript:;" class="dk8">
+	<i class="game_jiaobiao">8</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		<div class="style1">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_2"></i>
+			<i class="biao_postion_3"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+		
+		</a>
+	<a href="javascript:;" class="dk9">
+	<i class="game_jiaobiao">9</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		<div class="style1">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_2"></i>
+			<i class="biao_postion_3"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+		
+		</a>
+	<a href="javascript:;" class="dk10">
+		<i class="game_jiaobiao">10</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		<div class="style1">
+			<i class="biao_postion_1">
+				<img class="biao_img2" src="http://m.mr-x.com.cn:80/static/weixin/images/game_ss.png" />
+			</i>
+			<i class="biao_postion_2">
+				<img class="biao_img3" src="http://m.mr-x.com.cn:80/static/weixin/images/game_sy.png" />
+			</i>
+			<i class="biao_postion_3">
+				<img class="biao_img1" src="http://m.mr-x.com.cn:80/static/weixin/images/game_jz.png" />
+			</i>
+			<i class="biao_postion_4">
+				<img class="biao_img4" src="http://m.mr-x.com.cn:80/static/weixin/images/game_jiu.png" />
+			</i>
+			<i class="biao_postion_5">
+				<img class="biao_img5" src="http://m.mr-x.com.cn:80/static/weixin/images/game_qiang.png" />
+			</i>
+			<i class="biao_postion_5">
+				<img class="biao_img6" src="http://m.mr-x.com.cn:80/static/weixin/images/game_du.png" />
+			</i>
+		</div>
+	</a>
+	<a href="javascript:;" class="dk11">
+		<i class="game_jiaobiao">11</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		<div class="style2">
+			<i class="biao_postion_1">
+				<img class="biao_img2" src="http://m.mr-x.com.cn:80/static/weixin/images/game_ss.png" />
+			</i>
+			<i class="biao_postion_2">
+				<img class="biao_img6" src="http://m.mr-x.com.cn:80/static/weixin/images/game_du.png" />
+			</i>
+			<i class="biao_postion_3">
+				<img class="biao_img1" src="http://m.mr-x.com.cn:80/static/weixin/images/game_jz.png" />
+			</i>
+			<i class="biao_postion_4">
+				<img class="biao_img4" src="http://m.mr-x.com.cn:80/static/weixin/images/game_jiu.png" />
+			</i>
+			<i class="biao_postion_5">
+				<img class="biao_img5" src="http://m.mr-x.com.cn:80/static/weixin/images/game_qiang.png" />
+			</i>
+			<i class="biao_postion_5">
+				<img class="biao_img6" src="http://m.mr-x.com.cn:80/static/weixin/images/game_du.png" />
+			</i>
+		</div>
+	</a>
+	
+	<a href="javascript:;" class="dk12">
+		<i class="game_jiaobiao">12</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		
+		<div class="style3">
+			<i class="biao_postion_1">
+				<img class="biao_img4" src="http://m.mr-x.com.cn:80/static/weixin/images/game_jiu.png" />
+			</i>
+			<i class="biao_postion_2">
+				<img class="biao_img1" src="http://m.mr-x.com.cn:80/static/weixin/images/game_jz.png" />
+			</i>
+			<i class="biao_postion_3">
+				<img class="biao_img4" src="http://m.mr-x.com.cn:80/static/weixin/images/game_jiu.png" />
+			</i>
+			<i class="biao_postion_4">
+				<img class="biao_img4" src="http://m.mr-x.com.cn:80/static/weixin/images/game_jiu.png" />
+			</i>
+		</div>
+	</a>
+	
+	<a href="javascript:;" class="dk13">
+		<i class="game_jiaobiao">13</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		
+		<div class="style3">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_2"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+		</a>
+	<a href="javascript:;" class="dk14">
+	<i class="game_jiaobiao">14</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		
+		<div class="style3">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_2"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+		</a>
+	<a href="javascript:;" class="dk15">
+	<i class="game_jiaobiao">15</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		
+		<div class="style2">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_3"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+		
+		</a>
+	<a href="javascript:;" class="dk16">
+	<i class="game_jiaobiao">16</i>
+		<span class="game_name">Jam YU</span>
+		<span class="game_name_cn">女巫</span>
+		
+		<div class="style3">
+			<i class="biao_postion_1"></i>
+			<i class="biao_postion_2"></i>
+			<i class="biao_postion_4"></i>
+			<i class="biao_postion_5"></i>
+		</div>
+		</a>
+		
+		<img alt="" class="origin" id="gameDetail_gameResult" src="http://m.mr-x.com.cn:80/static/weixin/images/gameresult_1.png">
+		-->
+</div>
+
+<!--介绍  -->
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var basepath="http://m.mr-x.com.cn:80";
+</script>
+<div class="pop_introduce" style="display: none;">
+	<a href="javascript:;" class="pop_introduce_btn"></a>
+</div>
+<div class="pop_introduce_pop" style="display: none;">
+</div>
+
+<!--肉  -->
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var basepath="http://m.mr-x.com.cn:80";
+</script>
+<div class="pop_myrou" style="display: none;">
+	<a href="http://www.x-wolves.com" class="pop_myrou_btn"></a>
+</div>
+
+<!--商品  -->
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+	var basepath="http://m.mr-x.com.cn:80";
+</script>
+
+<div class="pop_product" style="display: none;">
+	<ul class="pop_con" id="product_dynamic_main">
+	</ul>
+	<div class="product_submit" id="product_submit">  </div>
+	
+</div>
+<div class="pop_product_order" style="display: none;">
+	<p class="order_title">
+		<span id="product_order_en_name"></span>
+		<label id="product_order_name"></label>
+	</p>
+	<div class="order_select" id="order_select_div">
+	</div>
+	<a href="javascript:" class="order_tj_btn" onclick="waterSelectOk()"></a>
+</div>
+
+<input type="hidden" value="" id="is_first_free">
+<input type="hidden" value="" id="openid">
+<input type="hidden" value="15" id="store_id">
+
+<!--绑定手机账号 -->
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var basepath = "http://m.mr-x.com.cn:80";
+</script>
+<div class="pop_edit_info" style="display: none;">
+    <input class="phone" type="text" id="edit_phone" name="phone" pattern="[0-9]*">
+    <input class="yzm" type="text" id="edit_yzm" name="yzm" pattern="[0-9]*">
+    <a href="javascript:;" class="vertify" onclick="UpdateGetCode()" id="yzm_btn">获取验证码</a>
+    <a class="login_btn" onclick="UpPhone()"></a>
+</div>
+
+
+<a href="javascitp:;" class="pop_edit_btn" onclick="updateUserInfo()"></a>
+
+<!--个人完整信息 -->
+
+
+
+
+
+
+
+<script type="text/javascript">
+  var basepath="http://m.mr-x.com.cn:80";
+</script>
+<div class="pop_edit_userDetail" style="display: none;">
+  <input type="text" class="edit_ktc" placeholder="不超过15个字" name="user_detail_title" id="user_detail_title">
+  <input type="text" class="edit_name" name="user_detail_name" id="user_detail_name">
+  <input type="text" class="edit_sf" name="user_detail_like_role" id="user_detail_like_role">
+  <input type="text" class="edit_sfz" name="user_detail_cards" id="user_detail_cards">
+  <input type="text" class="edit_wx" name="user_detail_weixin" id="user_detail_weixin">
+  <input type="text" class="edit_qq" name="user_detail_qq" id="user_detail_qq">
+  <input type="text" class="edit_email" name="user_detail_email" id="user_detail_email">
+  <input type="text" class="edit_city" name="user_detail_city" id="user_detail_city">
+  <select name="user_detail_sex" id="user_detail_sex">
+    <option value="1">男</option>
+    <option value="2">女</option>
+  </select>
+  <a href="javascitp:;" class="pop_edit_btn" onclick="updateUserInfo()"></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  var basepath="http://m.mr-x.com.cn:80";
+</script>
+
+<div class="pop_chooseSex" id="pop_chooseSex">
+  <p type="text" id="name" name="name" style="word-break:break-all ;text-align: center">请选择您的真实性别</p>
+  <a href="#" class="pop_man_btn" onclick="chooseMan()"></a>
+  <a href="#" class="pop_lady_btn" onclick="chooseLady()"></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var basepath = "http://m.mr-x.com.cn:80";
+</script>
+<div class="pop_phoneUnionid">
+    <div class="title"></div>
+    <p type="text" id="name" name="name" style="word-break:break-all">请选择一个账号保留,其余账号将被覆盖,此操作无法撤销,请慎重选择</p>
+
+    <div class="messageLeft">
+        <p class="p_zhanghao">账号1：</p>
+
+        <p class="p_name" id="p_name_1"></p>
+        <img class="p_trophy_img" src="/static/weixin/images/updatePhoneTrophy.png">
+
+        <p class="p_trophy" id="p_trophy_1"></p>
+        <img class="p_rou_img" src="/static/weixin/images/updatePhoneRou.png">
+
+        <p class="p_rou" id="p_rou_1"></p>
+
+        <p class="p_create_time1">创建时间</p>
+
+        <p class="p_create_time2" id="p_create_time2_1"></p>
+    </div>
+    <div class="messageLeft" style="left: 50%">
+        <p class="p_zhanghao">账号2：</p>
+
+        <p class="p_name" id="p_name_2"></p>
+        <img class="p_trophy_img" src="/static/weixin/images/updatePhoneTrophy.png">
+
+        <p class="p_trophy" id="p_trophy_2"></p>
+        <img class="p_rou_img" src="/static/weixin/images/updatePhoneRou.png">
+
+        <p class="p_rou" id="p_rou_2"></p>
+
+        <p class="p_create_time1">创建时间</p>
+
+        <p class="p_create_time2" id="p_create_time2_2"></p>
+    </div>
+
+    <input type="text" id="firstId" name="firstId" hidden="hidden">
+    <input type="text" id="secondId" name="secondId" hidden="hidden">
+
+    <a href="#" class="pop_phone_btn" onclick="chooseFirst(1)"></a>
+    <a href="#" class="pop_Unionid_btn" onclick="chooseFirst(2)"></a>
+</div>
+
+</body></html>
