@@ -1,0 +1,86 @@
+.pop_edit_userDetail{
+    display: none;
+    position: absolute;
+    width: 6.58rem;
+    height: 7.28rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.29rem;
+    margin-top: -3.64rem;
+    z-index: 1;
+    background: url(../images/edit_bg.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+.pop_edit_userDetail input{
+    width: 3.4rem;
+    height: .4rem;
+    border: 0;
+    position: absolute;
+    text-indent: .1rem;
+    background: transparent;
+    color:#fff;
+    z-index: 9;
+}
+.pop_edit_userDetail select{
+    width: .85rem;
+    height: .44rem;
+    border: 0;
+    position: absolute;
+    top: 1.3rem;
+    left: 76%;
+    background: transparent;
+    color:#fff;
+}
+.pop_edit_userDetail option{
+    color: #000;
+    background:#f2e2d3;
+}
+.pop_edit_userDetail input.edit_ktc{
+    top: .6rem;
+    left: 28%;
+    width: 3.75rem;
+}
+.pop_edit_userDetail input.edit_name{
+    top: 1.28rem;
+    left: 28%;
+    width: 1.3rem;
+}
+.pop_edit_userDetail input.edit_sf{
+    top: 1.9rem;
+    left: 50%;
+    width: 2.45rem;
+}
+.pop_edit_userDetail input.edit_sfz{
+    top: 2.55rem;
+    left: 35%;
+}
+.pop_edit_userDetail input.edit_wx{
+    top: 3.2rem;
+    left: 35%;
+}
+.pop_edit_userDetail input.edit_qq{
+    top: 3.85rem;
+    left: 35%;
+}
+.pop_edit_userDetail input.edit_email{
+    top: 4.48rem;
+    left: 35%;
+}
+.pop_edit_userDetail input.edit_city{
+    top: 5.1rem;
+    left: 35%;
+    width: 1.6rem;
+}
+.pop_edit_userDetail .pop_edit_btn{
+    position: absolute;
+    width: 1.76rem;
+    height: .68rem;
+    left: 50%;
+    margin-left:-.88rem;
+    bottom: .85rem;
+    z-index: 1;
+    background: url(../images/edit_btn.png) no-repeat center center;
+    background-size: 100% 100%;
+}

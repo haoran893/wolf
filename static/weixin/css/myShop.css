@@ -1,0 +1,485 @@
+/* 集市 start */
+.pop_js {
+    display: none;
+}
+
+.pop_js .product_enter_btn {
+    display: block;
+    position: absolute;
+    width: 1.26rem;
+    height: 1.51rem;
+    left: 70%;
+    top: 11%;
+    background: url("../images/product_enter_btn.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.pop_js .pop_js_bg {
+    position: absolute;
+    bottom: 0.22rem;
+    width: 1.73rem;
+    height: 2.94rem;
+    left: 71%;
+    z-index: 2;
+}
+
+.pop_js .pop_js_content {
+    display: block;
+    position: absolute;
+    width: 6.74rem;
+    height: 7.37rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.37rem;
+    margin-top: -3.68rem;
+    background: url("../images/pop_js_content.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.pop_js .pop_js_content p span {
+    display: block;
+    position: absolute;
+    top: 0.65rem;
+    right: 21%;
+    font-size: .24rem;
+    color: #f8d278;
+}
+
+.pop_js .pop_js_content p label {
+    display: block;
+    position: absolute;
+    top: 1.05rem;
+    right: 25%;
+    font-size: .16rem;
+    color: #f8d278;
+}
+
+.pop_js .pop_js_content .js_pic2 {
+    position: absolute;
+    top: 1.20rem;
+    right: 16%;
+    display: block;
+    width: 4.54rem;
+    height: 1.30rem;
+    background: url("../images/js_pic2.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.pop_js .pop_js_content .js_pic3 {
+    position: absolute;
+    top: 2.50rem;
+    right: 16%;
+    display: block;
+    width: 4.54rem;
+    height: 1.30rem;
+    background: url("../images/js_pic3.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.pop_js .pop_js_content .js_pic4 {
+    position: absolute;
+    top: 3.8rem;
+    right: 16%;
+    display: block;
+    width: 4.54rem;
+    height: 1.3rem;
+    background: url("../images/js_pic4.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.pop_js .pop_js_content .js_pic5 {
+     position: absolute;
+     top: 5.1rem;
+     right: 16%;
+     display: block;
+     width: 4.54rem;
+     height: 1.3rem;
+     background: url("../images/js_pic5.png") no-repeat center center;
+     background-size: 100% 100%;
+     cursor: pointer;
+ }
+
+.pop_js .pop_js_content .js_pic5_unable {
+    position: absolute;
+    top: 5.1rem;
+    right: 16%;
+    display: block;
+    width: 4.54rem;
+    height: 1.3rem;
+    background: url("../images/js_pic5_unable.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.pop_js .pop_js_content .js_pic1 {
+    position: absolute;
+    top: 1.2rem;
+    left: 16%;
+    display: block;
+    width: 2.13rem;
+    height: 2.32rem;
+    background: url("../images/js_pic1.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.pop_js .pop_js_content .js_pic1 span, .pop_js .pop_js_content .js_pic2 span, .pop_js .pop_js_content .js_pic3 span.font1, .pop_js .pop_js_content .js_pic4 span.font1, .pop_js .pop_js_content .js_pic5 span.font1{
+    text-align: center;
+    font-size: .32rem;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 82%;
+    bottom: .35rem;
+    width: 2.44rem;
+    margin-left: -1.22rem;
+}
+
+.pop_js .pop_js_content .js_pic3 span, .pop_js .pop_js_content .js_pic4 span {
+    text-align: right;
+    font-size: .24rem;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: .2rem;
+    bottom: .2rem;
+    width: 2.44rem;
+    margin-left: -1.22rem;
+    z-index: 3;
+}
+
+.pop_js .pop_js_content .js_pic4 span {
+    color: #000;
+}
+
+.pop_js .pop_js_content .js_pic3 i.icon-bg3 {
+    position: absolute;
+    width: 1.28rem;
+    height: .89rem;
+    right: .05rem;
+    bottom: .15rem;
+    z-index: 0;
+    background: url("../images/product_shop_2.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.pop_js .pop_js_content .js_pic4 i.icon-bg4 {
+    position: absolute;
+    width: 1.28rem;
+    height: .89rem;
+    right: .05rem;
+    bottom: .15rem;
+    z-index: 0;
+    background: url("../images/product_shop_4.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.pop_js .pop_js_content .js_pic3 .last-time3, .pop_js .pop_js_content .js_pic4 .last-time4 {
+    text-align: right;
+    font-size: .16rem;
+    color: #000;
+    display: inline-block;
+    position: absolute;
+    right: .2rem;
+    top: .25rem;
+    width: 2.44rem;
+    margin-left: -1.22rem;
+    z-index: 3;
+}
+
+.pop_js .pop_js_content .js_pic2 .last-time2 {
+    font-size: 0;
+}
+
+.pop_js .pop_js_content .js_pic4 .last-time4 {
+    color: #fff;
+}
+
+.pop_js .pop_js_content .js_pic3 i.icon-bg3 .icon-arrow3 {
+    position: absolute;
+    width: .09rem;
+    height: .11rem;
+    right: .45rem;
+    bottom: .33rem;
+    z-index: 0;
+    background: url("../images/product_shop_1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.pop_js .pop_js_content .js_pic4 i.icon-bg4 .icon-arrow4 {
+    position: absolute;
+    width: .09rem;
+    height: .11rem;
+    right: .45rem;
+    bottom: .33rem;
+    z-index: 0;
+    background: url("../images/product_shop_3.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.pop_js .pop_js_content .js_pic3 i.icon-bg3 label, .pop_js .pop_js_content .js_pic4 i.icon-bg4 label {
+    font-size: .2rem;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: .2rem;
+    width: 1rem;
+    display: block;
+    text-align: center;
+}
+
+.pop_js .pop_js_content .js_pic4 i.icon-bg4 label {
+    color: #000;
+}
+
+.pop_js .pop_js_content .js_pic1 label {
+    font-size: .3rem;
+    font-weight: bold;
+    color: #2f201a;
+    display: inline-block;
+    position: absolute;
+    left: 63%;
+    top: .33rem;
+}
+
+.pop_js .pop_js_content .js_pic2 label {
+    font-size: 0;
+    font-weight: bold;
+    color: #fff5b1;
+    display: inline-block;
+    position: absolute;
+    left: 63%;
+    top: .33rem;
+}
+
+.pop_js .pop_js_common_content {
+    display: none;
+    position: absolute;
+    width: 6.48rem;
+    height: 6.32rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.24rem;
+    margin-top: -3.16rem;
+    z-index: 1;
+}
+
+.pop_js .pop_js_common_content .pop_js_invitation_code {
+    position: absolute;
+    left: 34%;
+    top: 68%;
+    width: 2.00rem;
+    height: .32rem;
+    border: none;
+    text-indent: .05rem;
+    background: transparent;
+    color: #fff;
+    font-size: .2rem;
+}
+
+.pop_js .myshop_order_year {
+    background: url("../images/pop_js_year.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.pop_js .myshop_order_month {
+    background: url("../images/pop_js_month.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.pop_js .myshop_order_work_day {
+    background: url("../images/pop_js_work_day.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.pop_js .myshop_order_day {
+    background: url("../images/pop_js_day.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.pop_js .pop_js_common_content .pop_js_vip_btn {
+    position: absolute;
+    bottom: 2.50em;
+    left: 50%;
+    margin-left: -.97rem;
+    display: block;
+    width: 2.08rem;
+    height: .75rem;
+    background: url("../images/pop_js_vip_btn.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 376px) and (max-width: 540px) {
+    .pop_js .pop_js_common_content .pop_js_vip_btn {
+        bottom: .65rem;
+    }
+}
+
+.pop_js .pop_js_vip_content {
+    display: none;
+    position: absolute;
+    width: 6.48rem;
+    height: 5.24rem;
+    left: 50%;
+    top: 60%;
+    margin-left: -3.24rem;
+    margin-top: -2.62rem;
+    background: url("../images/pop_js_vip_content.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.pop_js .pop_js_vip_content .js_yqm {
+    position: absolute;
+    top: 3.35rem;
+    width: 2rem;
+    height: .35rem;
+    left: 50%;
+    margin-left: -.95rem;
+    background: transparent;
+    border: 0;
+    font-size: .28rem;
+    color: #fff;
+    text-indent: .15rem;
+}
+
+.pop_js .pop_js_vip_content .js_yqm[placeholder] {
+    font-family: 'Microsoft yahei';
+    font-size: .24rem;
+    font-weight: bold;
+}
+
+.pop_js .pop_js_vip_content .pop_js_vip_btn {
+    position: absolute;
+    bottom: 1.95em;
+    left: 50%;
+    margin-left: -.97rem;
+    display: block;
+    width: 2.08rem;
+    height: .75rem;
+    background: url("../images/pop_js_vip_btn.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 376px) and (max-width: 540px) {
+    .pop_js .pop_js_vip_content .pop_js_vip_btn {
+        bottom: .65rem;
+    }
+}
+
+.pop_js .pop_js_month_content {
+    display: none;
+    position: absolute;
+    width: 6.48rem;
+    height: 6.32rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.24rem;
+    margin-top: -3.16rem;
+    background: url("../images/pop_js_month_content.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.pop_js .pop_js_month_content .js_yqm {
+    position: absolute;
+    top: 4.25rem;
+    width: 2rem;
+    height: .35rem;
+    left: 50%;
+    margin-left: -.95rem;
+    background: transparent;
+    border: 0;
+    font-size: .28rem;
+    color: #fff;
+    text-indent: .15rem;
+}
+
+.pop_js .pop_js_month_content .js_yqm[placeholder] {
+    font-family: 'Microsoft yahei';
+    font-size: .24rem;
+    font-weight: bold;
+}
+
+.pop_js .pop_js_month_content .pop_js_vip_btn {
+    position: absolute;
+    bottom: 2.35em;
+    left: 50%;
+    margin-left: -.97rem;
+    display: block;
+    width: 2.08rem;
+    height: .75rem;
+    background: url("../images/pop_js_vip_btn.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 376px) and (max-width: 540px) {
+    .pop_js .pop_js_month_content .pop_js_vip_btn {
+        bottom: .8rem;
+    }
+}
+
+.pop_js .pop_js_year_content {
+    display: none;
+    position: absolute;
+    width: 6.48rem;
+    height: 6.32rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.24rem;
+    margin-top: -3.16rem;
+    background: url("../images/pop_js_year_content.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.pop_js .pop_js_year_content .js_yqm {
+    position: absolute;
+    top: 4.25rem;
+    width: 2rem;
+    height: .35rem;
+    left: 50%;
+    margin-left: -.95rem;
+    background: transparent;
+    border: 0;
+    font-size: .28rem;
+    color: #fff;
+    text-indent: .15rem;
+}
+
+.pop_js .pop_js_year_content .js_yqm[placeholder] {
+    font-family: 'Microsoft yahei';
+    font-size: .24rem;
+    font-weight: bold;
+}
+
+.pop_js .pop_js_year_content .pop_js_vip_btn {
+    position: absolute;
+    bottom: 2.35em;
+    left: 50%;
+    margin-left: -.97rem;
+    display: block;
+    width: 2.08rem;
+    height: .75rem;
+    background: url("../images/pop_js_vip_btn.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 376px) and (max-width: 540px) {
+    .pop_js .pop_js_month_content .pop_js_vip_btn {
+        bottom: .8rem;
+    }
+}
+
+/* 集市 end */

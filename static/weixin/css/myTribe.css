@@ -1,0 +1,322 @@
+/* 部落 start */
+.pop_bl{
+	display:none;
+}
+/*----单点部落----*/
+.pop_bl .pop_bl_bg{
+    position: absolute;
+    bottom: 0.18rem;
+    width: 1.73rem;
+    height: 3.01rem;
+    left: 27%;
+    z-index: 2;
+}
+.pop_bl .bl_dd{
+	display:block;
+}
+.pop_bl .bl_dd .pop_bl_dd_content{
+	position: absolute;
+    width: 6.64rem;
+    height: 3.98rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.32rem;
+    margin-top: -1.99rem;
+    background: url("../images/pop_bl_dd_content.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.pop_bl .bl_dd .pop_bl_dd_content .bl_search_input{
+	position: absolute;
+   top: 1.24rem;
+    width: 4rem;
+    height: .35rem;
+    left: 50%;
+    margin-left: -2.5rem;
+    background: transparent;
+    border: 0;
+    font-size: .28rem;
+    color: #fff;
+    text-indent: .15rem;
+}
+.pop_bl .bl_dd .pop_bl_dd_content .bl_search_input[placeholder] { 
+	font-family: 'Microsoft yahei'; 
+    font-size: .24rem;
+    font-weight: bold;
+    text-indent: 0;
+    color:#fbefdf;
+}
+.pop_bl .bl_dd .pop_bl_dd_content .bl_search_btn{
+    position: absolute;
+    top: 1.24rem;
+    left: 50%;
+    margin-left: 1.75rem;
+    display: block;
+    width: .78rem;
+    height: .41rem;
+    background: url("../images/bl_search_btn.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.pop_bl .bl_dd .pop_bl_dd_content .bl_search_add{
+    position: absolute;
+    top: 2.22rem;
+    left: 50%;
+    margin-left: -1.04rem;
+    display: block;
+    width: 2.08rem;
+    height: .75rem;
+    background: url("../images/bl_search_add.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.pop_bl .bl_add{
+	display:none;
+}
+.pop_bl .bl_add .pop_bl_add_content{
+	position: absolute;
+    width: 6.48rem;
+    height: 7.11rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.24rem;
+    margin-top: -4rem;
+    background: url("../images/pop_bl_add_content.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.pop_bl .bl_add .pop_bl_add_content .bl_search_input{
+	position: absolute;
+    top: 0.7rem;
+    width: 3.5rem;
+    height: .35rem;
+    right: 50%;
+    margin-right: -2.5rem;
+    background: transparent;
+    border: 0;
+    font-size: .28rem;
+    color: #fff;
+    text-indent: .15rem;
+}
+.pop_bl .bl_add .pop_bl_add_content .bl_add_textarea{
+    position: absolute;
+    top: 1.7rem;
+    width: 5rem;
+    height: 3.6rem;
+    right: 50%;
+    margin-right: -2.5rem;
+    background: transparent;
+    border: 0;
+    font-size: .28rem;
+    color: #fff;
+    text-indent: .15rem;
+}
+.pop_bl .bl_add .pop_bl_add_content .bl_add_btn{
+ 	position: absolute;
+	top: 18.35em;
+    left: 50%;
+    margin-left: -1.46rem;
+    display: block;
+    width: 2.93rem;
+    height: .75rem;
+    background: url("../images/pop_bl_add_btn.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+@media screen and (min-width:376px) and (max-width:540px){
+	.pop_bl .bl_add .pop_bl_add_content .bl_add_btn{
+  		top: 16.55em;
+	}
+}
+.pop_bl .bl_search{
+	display:none;
+}
+.pop_bl .bl_search .pop_bl_search_content{
+	position: absolute;
+    width: 6.48rem;
+    height: 7.11rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.24rem;
+    margin-top: -3.55rem;
+    background: url("../images/pop_bl_search_content.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.pop_bl .bl_search .pop_bl_search_content .bl_search_input{
+    position: absolute;
+    top: 0.6rem;
+    width: 3.5rem;
+    height: .35rem;
+    left: 50%;
+    margin-left: -2.5rem;
+    background: transparent;
+    border: 0;
+    font-size: .28rem;
+    color: #fff;
+    text-indent: .15rem;
+}
+.pop_bl .bl_search .pop_bl_search_content .bl_search_btn{
+    position: absolute;
+    top: 0.65rem;
+    left: 50%;
+    margin-left: 1.75rem;
+    display: block;
+    width: .78rem;
+    height: .41rem;
+    background: url("../images/bl_search_btn.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.pop_bl .bl_search .pop_bl_search_content ul{
+    margin: 1.8rem auto 0 auto;
+    width: 4.84rem;
+    height: 4.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.pop_bl .bl_search .pop_bl_search_content li{
+    width: 4.84rem;
+    height: .85rem;
+    line-height: .85rem;
+    margin-bottom: .05rem;
+	background: url("../images/pop_bl_search_bg.png") no-repeat center center;
+    background-size: 100% 100%;
+	
+}
+.pop_bl .bl_search .pop_bl_search_content li span{
+    color: #351e0b;
+    font-size: .32rem;
+    margin-left: .25rem;
+ }
+.pop_bl .bl_search .pop_bl_search_content li .bl_search_tab_btn {
+    display: inline-block;
+    width: 1.22rem;
+    height: .75rem;
+    background: url("../images/pop_bl_search_add.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+    z-index: 1;
+    float: right;
+    margin-top: .05rem;
+    margin-right: .05rem;
+ }
+.pop_bl .bl_con{
+	display:none;
+ }
+ .pop_bl .bl_con .pop_bl_con_content{
+ 	position: absolute;
+    width: 6.79rem;
+    height: 7.54rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.39rem;
+    margin-top: -3.77rem;
+    background: url("../images/pop_bl_con_content.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+ }
+.pop_bl .bl_con .pop_bl_con_content .bl_con_name{
+    position: absolute;
+    top: .73rem;
+    left: 2.5rem;
+    color: #fff;
+    font-size: .24rem;
+ }
+ .pop_bl .bl_con .pop_bl_con_content .bl_con_hua{
+    position: absolute;
+    top: .73rem;
+    left: 4.4rem;
+    color: #fff;
+    font-size: .24rem;
+ }
+ .pop_bl .bl_con .pop_bl_con_content .bl_con_detail{
+	 position: absolute;
+    top: 1.4rem;
+    left: 1.65rem;
+    color: #fff;
+    font-size: .24rem;
+    width: 2.8rem;
+    line-height: .25rem;
+ }
+  .pop_bl .bl_con .pop_bl_con_content .bl_con_exit{
+    position: absolute;
+    top: 1.55rem;
+    left: 4.55rem;
+    display: block;
+    width: .64rem;
+    height: .32rem;
+    background: url("../images/bl_con_exit.png") no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+ }
+.pop_bl .bl_con .pop_bl_con_content  ul{
+	width: 3.6rem;
+    height: 3.12rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 3.65rem auto 0 auto;
+    font-size: .18rem;
+}
+.pop_bl .bl_con .pop_bl_con_content  ul li{
+	width:3.6rem;
+    height:.49rem;
+    line-height:.49rem;
+    margin-bottom:.05rem;
+}
+.pop_bl .bl_con .pop_bl_con_content ul li.mytop_odd{
+	background: url("../images/ph_table_bg1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_bl .bl_con .pop_bl_con_content ul li.mytop_even{
+	background: url("../images/ph_table_bg2.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_bl .bl_con .pop_bl_con_content ul li i{
+	display:inline-block;
+	width:.38rem;
+	height:.38rem;
+	line-height:.38rem;
+	text-align:center;
+	margin-left:.15rem;
+	margin-right:.15rem;
+    color:#fff;
+    font-size:.2rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    font-style:normal;
+}
+.pop_bl .bl_con .pop_bl_con_content ul li i.mytop_first{
+	background: url("../images/ph_title_btn1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_bl .bl_con .pop_bl_con_content ul li i.mytop_second{
+	background: url("../images/ph_title_btn2.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_bl .bl_con .pop_bl_con_content ul li i.mytop_three{
+	background: url("../images/ph_title_btn3.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_bl .bl_con .pop_bl_con_content ul li i.mytop_other{
+	background: url("../images/ph_title_btn4.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_bl .bl_con .pop_bl_con_content ul li span{
+	display:inline-block;
+    width: 1.92rem;
+    height: .48rem;
+    line-height: .48rem;
+    color: #000;
+    text-indent: .1rem;
+}
+.pop_bl .bl_con .pop_bl_con_content ul li label{
+    display: inline-block;
+    width: .85rem;
+    height: .48rem;
+    line-height: .48rem;
+    color: #000;
+    text-align: center;
+}
+ 
+/* 部落 end */

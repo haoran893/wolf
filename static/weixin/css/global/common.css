@@ -1,0 +1,12 @@
+/* 公用的背景的图片 start */
+.layout,.loading{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    overflow: hidden;
+	background: url("../../images/bg.jpg") no-repeat center center;
+    background-size: 100% 100%;
+}
+/* 公用的背景的图片 end */

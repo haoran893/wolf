@@ -1,0 +1,960 @@
+/* 主页start */
+.layout{
+   text-align: center;
+   background: url("../images/main_bg.jpg") no-repeat center center;
+   background-size: 100% 100%;
+}
+.layout .myinfo_duan{
+	position: absolute;
+    top: .9rem;
+    left: 50%;
+    margin-left:-3.36rem;
+	display:block;
+	width: 6.73rem;
+    height:1.34rem;
+	background: url("../images/duan_bg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_duan .level{
+	font-weight:bold;
+	font-size:.6rem;
+	color:#372222;
+	position: absolute;
+    top: .25rem;
+    left: .25rem;
+    display: block;
+    width: 13%;
+    text-align: center;
+}
+.layout .myinfo_duan .level img{
+	width:.59rem;
+	height:.43rem;
+}
+.layout .myinfo_duan .duan1,
+.layout .myinfo_duan .duan2,
+.layout .myinfo_duan .duan3,
+.layout .myinfo_duan .duan4,
+.layout .myinfo_duan .duan6,
+.layout .myinfo_duan .duan7,
+.layout .myinfo_duan .duan8,
+.layout .myinfo_duan .duan9,
+.layout .myinfo_duan .duan10{
+	position: absolute;
+    top: .34rem;
+	display:block;
+	width: .29rem;
+    height:.5rem;
+	background: url("../images/duan_other.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_duan .duan1{
+	left:1.33rem;
+}
+.layout .myinfo_duan .duan2{
+	left:1.83rem;
+}
+.layout .myinfo_duan .duan3{
+	left:2.3rem;
+}
+.layout .myinfo_duan .duan4{
+	left:2.8rem;
+}
+.layout .myinfo_duan .duan6{
+	left:3.78rem;
+}
+.layout .myinfo_duan .duan7{
+	left:4.22rem;
+}
+.layout .myinfo_duan .duan8{
+	left:4.68rem;
+}
+.layout .myinfo_duan .duan9{
+	left:5.15rem;
+}
+.layout .myinfo_duan .duan10{
+	left:5.6rem;
+}
+.layout .myinfo_duan .duan5{
+	position: absolute;
+    top: .3rem;
+    left:3.25rem;
+	display:block;
+	width: .38rem;
+    height:.73rem;
+	background: url("../images/duan_big.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_btn .myinfo_left{
+	position: absolute;
+    top: 2.2rem;
+    left: .5rem;
+	display:block;
+	width: 1.55rem;
+    height:1.46rem;
+	background: url("../images/btn_top_left.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_btn .myinfo_left:hover{
+	background: url("../images/btn_top_left_hover.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_btn .myinfo_right{
+	position: absolute;
+    top: 2.2rem;
+    right: .65rem;
+	display:block;
+	width: 1.34rem;
+    height:1.41rem;
+	background: url("../images/btn_top_right.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.layout .myinfo_name i.head{
+	position: absolute;
+    top: -36%;
+    left: -0.7rem;
+	display:block;
+	width: .69rem;
+    height:.66rem;
+	
+}
+.layout .myinfo_name  i.jin{
+	background: url("../images/head_jin.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_name  i.yin{
+	background: url("../images/head_yin.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_name  i.tong{
+    width: .56rem;
+    height:.59rem;
+	background: url("../images/head_tong.png") no-repeat center center;
+    background-size: 100% 100%;
+    top: -26%;
+    left: -0.7rem;
+}
+
+.layout .myinfo_btn .myinfo_right:hover{
+	background: url("../images/btn_top_right_hover.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+}
+.layout .myinfo_btn{
+	font-weight:bold;
+	font-size:.24rem;
+	color:#2e1d0a;
+    display: inline-block;
+    position: relative;
+}
+.layout .myinfo_btn .myinfo_left .text_left{
+	font-weight:bold;
+	font-size:.24rem;
+	color:#2e1d0a;
+    display: inline-block;
+    position: relative;
+	margin-top: .99rem;
+}
+.layout .myinfo_btn .myinfo_right .text_right{
+	font-weight:bold;
+	font-size:.24rem;
+	color:#2e1d0a;
+    display: inline-block;
+    position: relative;
+	margin-top: .95rem;
+}
+.layout .myinfo_name{
+	text-align:center;
+	font-size:.36rem;
+	font-weight:bold;
+	color:#fff;
+    position: relative;
+	margin-top:4rem;
+	display:inline-block;
+    z-index: 1;
+}
+.layout .edit_info{
+	position: absolute;
+    top: 4.05rem;
+    left: 65%;
+	display:block;
+	width: .26rem;
+    height:.29rem;
+	background: url("../images/login_phone.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.layout .userDetail_edit{
+    position: absolute;
+    top: 4.05rem;
+    left: 70%;
+    display:block;
+    width: .26rem;
+    height:.29rem;
+    background: url("../images/edit_info.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.layout .userDetail_edit_alert{
+    position: absolute;
+    top: 4.4rem;
+    left: 21%;
+    display:block;
+    width: 50%;
+    height:10%;
+    background: url("../images/edit_info_alert.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.layout .myinfo_time{
+	position: absolute;
+   	top:4.4rem;
+    left: 50%;
+    margin-left:-1.65rem;
+	display:block;
+	width: 3.21rem;
+    height:.34rem;
+	background: url("../images/main_time_bg.png") no-repeat center center;
+    background-size: 100% 100%;
+    font-size:.2rem;
+	font-weight:bold;
+	color:#fff;
+    line-height: .35rem;
+    z-index: 1;
+}
+.layout .myinfo_time2{
+    position: absolute;
+    top:4.8rem;
+    left: 50%;
+    margin-left:-1.65rem;
+    display:block;
+    width: 3.21rem;
+    height:.34rem;
+    background: url("../images/main_time_bg.png") no-repeat center center;
+    background-size: 100% 100%;
+    font-size:.2rem;
+    font-weight:bold;
+    color:#fff;
+    line-height: .35rem;
+    z-index: 1;
+}
+
+.layout .myinfo_role .role_img{
+	position: absolute;
+	top:4.0rem;
+	left:51.5%;
+    margin-left:-1.92rem;
+	width: 3.6rem;
+    height:4.8rem;
+    display:block;
+    z-index: 0;
+}
+.layout .myinfo_role .role_img2{
+    position: absolute;
+    top:4.0rem;
+    left:50%;
+    margin-left:-1.88rem;
+    width: 3.6rem;
+    height:4.8rem;
+    display:block;
+}
+.layout .myinfo_role .role_animation{
+	animation: turn 2s;
+}
+@keyframes turn {
+  to {
+    transform: rotateY(360deg);
+  }
+}            
+.layout .myinfo_role .role_btn_left{
+	position: absolute;
+   	top:7rem;
+    left: .5rem;
+	display:block;
+	width: .6rem;
+    height:1.02rem;
+	background: url("../images/btn_bottom_left.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_role .role_btn_right{
+	position: absolute;
+    top:7rem;
+    right: .5rem;
+	display:block;
+	width: .6rem;
+    height:1.02rem;
+	background: url("../images/btn_bottom_right.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_bottom{
+	position: absolute;
+    bottom: .3rem;
+    height: 2.3rem;
+    right: .45rem;
+    left: .39rem;
+    text-align: center;
+}
+.layout .myinfo_bottom a{
+	position: absolute;
+    bottom: -0.08rem;
+    left: 0;
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+    cursor: pointer;
+    width: 1.73rem;
+}
+.layout .myinfo_bottom a.btn_cj{
+    left: 0;
+    height:2.52rem;
+    background: url("../images/menu_1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_bottom a.btn_bl{
+    left: 25%;
+    height:2.45rem;
+    background: url("../images/menu_2.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_bottom a.btn_ph{
+    left: 50%;
+   height:2.45rem;
+    background: url("../images/menu_3.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_bottom a.btn_js{
+    left: 75%;
+    height:2.46rem;
+    background: url("../images/menu_4.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.layout .myinfo_bottom a.hover{
+	background: none;
+}
+/* 主页end */
+
+/* 遮罩层  */
+.popup{
+	display:none;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    top:0;
+    right:0;
+    background:rgba(0,0,0,.7);
+}
+/* 成就 start */
+.pop_cj{
+	display:none;
+}
+.pop_cj .pop_cj_bg{
+    position: absolute;
+    bottom: 0.23rem;
+    width: 1.73rem;
+    height: 2.94rem;
+    left: 0.4rem;
+    z-index: 2;
+}
+.pop_cj .pop_cj_content{
+	position: absolute;
+    width: 6.64rem;
+    height: 7.27rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.32rem;
+    margin-top: -3.63rem;
+    background: url("../images/pop_cj_content.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.pop_cj .pop_cj_content .pop_cj_con{
+	position: absolute;
+    top: .7rem;
+    width: 4.96rem;
+    height: 5.7rem;
+    left: 50%;
+    margin-left: -2.48rem;
+     overflow:scroll;
+}
+.pop_cj .pop_cj_content .pop_cj_con li{
+	width: 4.96rem;
+    height:1.1rem;
+    margin-bottom:.05rem;
+    position: relative;
+}
+.pop_cj .pop_cj_content .pop_cj_con li p{
+	margin-bottom:.08rem;
+}
+.pop_cj .pop_cj_content .pop_cj_con li p span{
+    margin-top: .09rem;
+    display: inline-block;
+    text-indent: .15rem;
+    font-size: .28rem;
+    font-weight: bold;
+    color: #fff;
+}
+.pop_cj .pop_cj_content .pop_cj_con li p label{
+    margin-top: .09rem;
+    display: inline-block;
+    font-size: .28rem;
+    font-weight: bold;
+    color: #ffba00;
+    float: right;
+    margin-right: .8rem;
+}
+.pop_cj .pop_cj_content .pop_cj_con li a.cj_btn{
+	display:block;
+	width: 1.09rem;
+    height:.52rem;
+    margin: .12rem 0 0 3.7rem;
+	background: url("../images/cj_btn_new.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_cj .pop_cj_content .pop_cj_con li span.cj_txt{
+	margin-top: .24rem;
+    display: block;
+    font-size: .32rem;
+    font-weight: bold;
+    color: #2c2c2c;
+    text-align: right;
+    margin-right: .2rem;
+}
+.pop_cj .pop_cj_content .pop_cj_con li span.cj_txt_finish{
+	margin-top: .24rem;
+    display: block;
+    font-size: .32rem;
+    font-weight: bold;
+    color: #3c210b;
+    text-align: right;
+    margin-right: .2rem;
+}
+.pop_cj .pop_cj_content .pop_cj_con li.cj_bg1{
+	background: url("../images/cj_bg1_new.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_cj .pop_cj_content .pop_cj_con li.cj_bg2{
+	background: url("../images/cj_bg2_new.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_cj .pop_cj_content .pop_cj_con li.cj_bg3{
+	background: url("../images/cj_bg3_new.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_cj .pop_cj_content .pop_cj_con li .loading_bg{
+	position: absolute;
+    width: 3.1rem;
+    height: .2rem;
+    left: .13rem;
+    top: .65rem;
+    border-radius: .5rem;
+	background: url("../images/cj_loading1_new.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_cj .pop_cj_content .pop_cj_con li.cj_bg2 .loading_bg{
+	background: url("../images/cj_bg_hui_new.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_cj .pop_cj_content .pop_cj_con li .loading_bg .loading_con{
+	position: absolute;
+    width: 50%;
+    height: .18rem;
+    left: .03rem;
+    top: 0;
+    border-radius: .5rem;
+	background: url("../images/cj_loading_new.png") repeat-x;
+}
+.pop_cj .pop_cj_content .pop_cj_con li .loading_bg i.default{
+	position: absolute;
+    width: 2.61rem;
+    height: .43rem;
+    left: .6rem;
+    top: -.15rem;
+	background: url("../images/cj_loading_bg_new.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_cj .pop_cj_content .pop_cj_con li .loading_bg i.tong{
+	position: absolute;
+    width: .52rem;
+    height: .39rem;
+    left: .63rem;
+    top: -.15rem;
+	background: url("../images/cj_tong_new.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_cj .pop_cj_content .pop_cj_con li .loading_bg i.yin{
+	position: absolute;
+    width: .52rem;
+    height: .39rem;
+    left: 1.66rem;
+    top: -.15rem;
+	background: url("../images/cj_yin_new.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_cj .pop_cj_content .pop_cj_con li .loading_bg i.jin{
+	position: absolute;
+    width: .52rem;
+    height: .39rem;
+    left: 2.69rem;
+    top: -.15rem;
+	background: url("../images/cj_jin_new.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+/* 成就 end */
+
+
+
+
+/* 段位 start */
+.pop_dw{
+	display:none;
+    position: absolute;
+    width: 6.64rem;
+    height: 7.27rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.32rem;
+    margin-top: -3.64rem;
+    background: url("../images/dw_bg.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.pop_dw .dw_first span{
+    font-size: .24rem;
+    color: #000;
+    position: absolute;
+    display: inline-block;
+    left: .98rem;
+    text-align: center;
+    top: .7rem;
+    width: .38rem;
+    height: .4rem;
+    line-height: .4rem;
+}
+.pop_dw .dw_first label{
+    font-size: .24rem;
+    color: #fff;
+    position: absolute;
+    display: inline-block;
+    right: .9rem;
+    text-align: left;
+    top: .73rem;
+    width: 1.1rem;
+    height: .4rem;
+    line-height: .4rem;
+}
+.pop_dw .dw_second span{
+	font-size: .24rem;
+    color: #000;
+    position: absolute;
+    display: inline-block;
+    left: .98rem;
+    text-align: center;
+    top: 3.15rem;
+    width: .38rem;
+    height: .4rem;
+    line-height: .4rem;
+}
+.pop_dw .dw_second label{
+	font-size: .24rem;
+    color: #fff;
+    position: absolute;
+    display: inline-block;
+    right: .9rem;
+    text-align: left;
+    top: 3.18rem;
+    width: 1.1rem;
+    height: .4rem;
+    line-height: .4rem;
+}
+.pop_dw .dw_second  i{
+	position: absolute;
+    top: 3.03rem;
+    display: block;
+    width: .2rem;
+    height: .33rem;
+    cursor: pointer;
+    background: url("../images/dw_top.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_dw .dw_second  i.dw_top1{
+	left: 1.5rem;
+}
+.pop_dw .dw_second  i.dw_top2{
+	left: 1.75rem;
+}
+.pop_dw .dw_second i.dw_top3{
+	left: 2rem;
+}
+.pop_dw .dw_second i.dw_top4{
+	left: 2.25rem;
+}
+.pop_dw .dw_second i.dw_top5{
+	left: 2.5rem;
+}
+.pop_dw .ren{
+    position: absolute;
+    top: 1.75rem;
+    display: block;
+    width: .86rem;
+    height: 1.24rem;
+    cursor: pointer;
+}
+.pop_dw .dw_first .ren1{
+	left: 1.23rem;
+}
+.pop_dw .dw_first .ren2{
+	left: 2.95rem;
+}
+.pop_dw .dw_first .ren3{
+	left: 4.55rem;
+}
+.pop_dw .dw_second .ren1{
+	top:4.2rem;
+	left: 1.23rem;
+}
+.pop_dw .dw_second .ren2{
+	top:4.2rem;
+	left: 2.95rem;
+}
+.pop_dw .dw_second .ren3{
+	top:4.2rem;
+	left: 4.55rem;
+}
+.pop_dw .dw_ren{
+    width: .86rem;
+    height: 1.24rem;
+}
+.pop_dw i.dw_use{
+	position: absolute;
+    top: -.15rem;
+    left: -.3rem;
+    display: block;
+    width: .79rem;
+    height: .54rem;
+    cursor: pointer;
+    background: url("../images/duan_use.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index:5;
+}
+/* 段位 end */
+/* 战绩 start */
+.pop_zj{
+	display:none;
+    position: absolute;
+    width: 6.48rem;
+    height: 7.11rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.24rem;
+    margin-top: -3.55rem;
+    background: url("../images/zj_bg.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.pop_zj .pop_zj_top span{
+    font-size: .28rem;
+    color: #fff;
+    position: absolute;
+    display: inline-block;
+    right: 1.8rem;
+    width: 1.5rem;
+    overflow: hidden;
+    text-align: right;
+}
+.pop_zj  .pop_zj_top  span.zj_bs{
+    top: .66rem;
+}
+.pop_zj  .pop_zj_top  span.zj_jb {
+	top: 1.24rem;
+}
+.pop_zj  .pop_zj_top  span.zj_cs {
+    top: 1.82rem;
+}
+.pop_zj  .pop_zj_top  span.zj_zs {
+    top: 1.9rem;
+}
+.pop_zj .pop_zj_con{
+    position: absolute;
+    left: 50%;
+    width: 4.89rem;
+    margin-left: -2.44rem;
+    top: 2.45rem;
+    height: 3.8rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.pop_zj .pop_zj_con li{
+    width: 4.89rem;
+    height: .89rem;
+    margin-bottom: .08rem;
+	position: relative;
+}
+.pop_zj .pop_zj_con li span{
+ 	font-size: .24rem;
+    color: #fff;
+    position: absolute;
+    left: 73%;
+    top: .1rem;
+ }
+ .pop_zj .pop_zj_con li label{
+ 	font-size: .24rem;
+    color: #341303;
+    position: absolute;
+    right: 7%;
+    top: .55rem;
+    font-weight: bold;
+ }
+  .pop_zj .pop_zj_con li p{
+      font-size: .24rem;
+    color: #341303;
+    position: absolute;
+    left: 23%;
+    top: .55rem;
+    font-weight: bold;
+  }
+.pop_zj .pop_zj_con li.odd{
+    background: url("../images/zj_sucess.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_zj .pop_zj_con li.even{
+    background: url("../images/zj_fail.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+/* 战绩 end */
+
+
+.pop_detail{ 
+	display:none;
+    position: absolute;
+    width: 6.57rem;
+    height: 6.97rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.28rem;
+    margin-top: -3.48rem;
+    background: url("../images/game_bg.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.pop_detail a{
+	display:block;
+	position: absolute;
+    width: 1.68rem;
+    height: 1.23rem;
+    background: url("../images/game_dk.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+.pop_detail a.hover{
+	background: url("../images/game_dk_hover.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_detail a i.game_jiaobiao{
+	position: absolute;
+    width: .36rem;
+    height: .36rem;
+    background: url("../images/game_jiaobiao.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 1;
+    top: 6%;
+    left: 6%;
+    font-size: .24rem;
+    color: #FFF;
+    font-style: normal;
+}
+.pop_detail a .game_name{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    font-size: .24rem;
+    color: #be4800;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-weight:bold;
+    
+}
+.pop_detail a .game_name_cn{
+    position: absolute;
+    top: 36%;
+    left: 0;
+    font-size: .24rem;
+    color: #6d371d;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-weight:bold;
+}
+.pop_detail a i{
+	position: absolute;
+    z-index: 1;
+}
+.pop_detail a .style1 i.biao_postion_1{
+    top: 58%;
+    left: 9%;
+}
+.pop_detail a .style1 i.biao_postion_2{
+    top: 57%;
+    left: 41%;
+}
+.pop_detail a  .style1 i.biao_postion_3{
+    top: 56%;
+    left: 73%;
+}
+.pop_detail a .style1 i.biao_postion_4{
+    top: 33%;
+    left: 9%;
+}
+.pop_detail a  .style1 i.biao_postion_5{
+    top: 31%;
+    left: 72%;
+}
+.pop_detail a .style2 i.biao_postion_1{
+    top: 57%;
+    left: 9%;
+}
+.pop_detail a .style2 i.biao_postion_2{
+    top: 57%;
+    left: 45%;
+}
+.pop_detail a .style2 i.biao_postion_3{
+        top: 56%;
+    left: 70%;
+}
+.pop_detail a .style2 i.biao_postion_4{
+        top: 31%;
+    left: 9%;
+}
+.pop_detail a .style2 i.biao_postion_5{
+       top: 31%;
+    left: 72%;
+}
+.pop_detail a .style3 i.biao_postion_1{
+    top: 56%;
+    left: 9%;
+}
+.pop_detail a .style3 i.biao_postion_2{
+    top: 56%;
+    left:31%;
+}
+.pop_detail a .style3 i.biao_postion_3{
+    top: 56%;
+    left: 52%;
+}
+.pop_detail a .style3 i.biao_postion_4{
+    top: 56%;
+    left: 72%;
+}
+.pop_detail a i .biao_img1{
+	width: .52rem;
+    height: .32rem;
+}
+.pop_detail a i .biao_img2{
+	 width: .52rem;
+    height: .32rem;
+}
+.pop_detail a i .biao_img3{
+	 width: .3rem;
+    height: .31rem;
+}
+.pop_detail a i .biao_img4{
+	width: .31rem;
+    height: .31rem;
+}
+.pop_detail a i .biao_img5{
+	 width: .31rem;
+    height: .32rem;
+}
+.pop_detail a i .biao_img6{
+	width: .31rem;
+    height: .32rem;
+}
+
+.pop_detail .dk1{
+    left: 49%;
+    top: 2%;
+}
+.pop_detail .dk2{
+    left: 73%;
+    top: 2%;
+}
+.pop_detail .dk3{
+    left: 73%;
+    top: 18%;
+}
+.pop_detail .dk4{
+    left: 73%;
+    top: 34%;
+}
+.pop_detail .dk5{
+    left: 73%;
+    top: 50%;
+}
+.pop_detail .dk6{
+    left: 73%;
+    top: 66%;
+}
+.pop_detail .dk7{
+    left: 73%;
+    top: 82%;
+}
+.pop_detail .dk8{
+    left: 49%;
+    top: 82%;
+}
+.pop_detail .dk9{
+        left: 25%;
+    top: 82%;
+}
+.pop_detail .dk10{
+     left: 1%;
+    top: 82%;
+}
+.pop_detail .dk11{
+     left: 1%;
+    top: 66%;
+}
+.pop_detail .dk12{
+    left: 1%;
+    top: 50%;
+}
+.pop_detail .dk13{
+    left: 1%;
+    top: 34%;
+}
+.pop_detail .dk14{
+    left: 1%;
+    top: 18%;
+}
+.pop_detail .dk15{
+    left: 1%;
+    top: 2%;
+}
+.pop_detail .dk16{
+    left: 25%;
+    top: 2%;
+}
+.pop_detail .origin{
+    position: absolute;
+    left: 46%;
+    top: 35%;
+    width: 0.46rem;
+    height: 2.08rem;
+}
+
+/* 角标 start */
+i.jiaobiao{
+    width: .44rem;
+    height: .51rem;
+    position: absolute;
+    bottom: 65%;
+    background: url("../images/game_jiaobiao_flag.png") no-repeat center center;
+    background-size: 100% 100%;
+    left: 82%;
+    z-index: 5;
+   
+}
+/* 角标 end */

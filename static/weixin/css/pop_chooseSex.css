@@ -1,0 +1,50 @@
+.pop_chooseSex{
+    display: none;
+    position: absolute;
+    width: 6.58rem;
+    height: 4.0rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.29rem;
+    margin-top: -3.63rem;
+    z-index: 6;
+    background: url(../images/bangdingweixindiban.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_chooseSex p{
+    position: absolute;
+    left: 13%;
+    bottom: 0.0rem;
+    width: 5rem;
+    height: 3rem;
+    border: none;
+    text-indent: .05rem;
+    background: transparent;
+    color: #aeb35f;
+    font-size: .3rem;
+}
+.pop_chooseSex .pop_man_btn{
+    position: absolute;
+    bottom: 0.6rem;
+    left: 50%;
+    margin-left: 0.2rem;
+    display: block;
+    width: 2.4rem;
+    height: 0.8rem;
+    background: url(../images/ensureMan.png) no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.pop_chooseSex .pop_lady_btn{
+    position: absolute;
+    bottom: 0.6rem;
+    left: 50%;
+    margin-left: -2.5rem;
+    display: block;
+    width:  2.4rem;
+    height: 0.8rem;
+    background: url(../images/ensureLady.png) no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}

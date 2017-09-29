@@ -1,0 +1,24 @@
+.pop_myrou{
+  	display: none;
+    position: absolute;
+    width: 6.58rem;
+    height: 7.27rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.29rem;
+    margin-top: -3.63rem;
+    z-index: 1;
+    background: url(../images/pop_myrou_bg.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_myrou .pop_myrou_btn{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    margin-left: -1.24rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+}

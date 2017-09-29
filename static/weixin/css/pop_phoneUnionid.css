@@ -1,0 +1,189 @@
+.pop_phoneUnionid{
+    display: none;
+    position: absolute;
+    width: 7.5rem;
+    height: 6rem;
+    left: 44%;
+    top: 50%;
+    margin-left: -3.29rem;
+    margin-top: -3.63rem;
+    z-index: 2;
+    background: url(../images/updateBackGround.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_phoneUnionid .title{
+    display: none;
+    position: absolute;
+    width: 7.5rem;
+    height: 2rem;
+    left: 44%;
+    top: 80%;
+    margin-left: -3.29rem;
+    margin-top: -3.63rem;
+    z-index: 6;
+    background: url(../images/updatePhoneTitle.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.pop_phoneUnionid p{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    width: 6rem;
+    height: 0.6rem;
+    border: none;
+    text-indent: .05rem;
+    background: transparent;
+    color: sandybrown;
+    font-size: .3rem;
+}
+.pop_phoneUnionid .messageLeft{
+    position: absolute;
+    left: 10%;
+    top: 37%;
+    width: 40%;
+    height: 2.4rem;
+    border: 2px;
+    text-indent: .05rem;
+    background: transparent;
+    color: #aeb35f;
+    font-size: .3rem;
+    z-index: 3;
+}
+.pop_phoneUnionid .messageLeft .p_trophy_img{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 20%;
+    height: 20%;
+    z-index: 3;
+}
+
+.pop_phoneUnionid .messageLeft .p_trophy{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 20%;
+    height: 20%;
+    z-index: 3;
+}
+.pop_phoneUnionid .messageLeft .p_rou_img{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    width: 20%;
+    height: 20%;
+    z-index: 3;
+}
+
+.pop_phoneUnionid .messageLeft .p_rou{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    width: 20%;
+    height: 20%;
+    z-index: 3;
+}
+
+.pop_phoneUnionid .messageLeft .p_create_time1{
+     position: absolute;
+     left: 10%;
+     top: 70%;
+     width: 80%;
+     height: 20%;
+     font-size: 0.25rem;
+     z-index: 3;
+ }
+
+.pop_phoneUnionid .messageLeft .p_create_time2{
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    width: 80%;
+    height: 20%;
+    font-size: 0.25rem;
+    z-index: 3;
+}
+
+
+.pop_phoneUnionid .messageLeft .p_zhanghao{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 31%;
+    height: 2rem;
+    text-indent: .05rem;
+    background: transparent;
+    color: #aeb35f;
+    font-size: 0.25rem;
+    z-index: 3;
+}
+.pop_phoneUnionid .messageLeft .p_name{
+    position: absolute;
+    left: 31%;
+    top: 0%;
+    width: 69%;
+    height: 2rem;
+    text-indent: .05rem;
+    background: transparent;
+    color: #aeb35f;
+    font-size: 0.25rem;
+    z-index: 3;
+}
+
+
+
+.insideName {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 40%;
+    height: 2rem;
+    border: 2px;
+    text-indent: .05rem;
+    background: transparent;
+    color: #aeb35f;
+    font-size: .3rem;
+    z-index: 3;
+}
+
+.pop_phoneUnionid .messageRight{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    width: 40%;
+    height: 2rem;
+    border: 2px;
+    text-indent: .05rem;
+    background: transparent;
+    color: #aeb35f;
+    font-size: .3rem;
+    z-index: 3;
+}
+
+
+.pop_phoneUnionid .pop_Unionid_btn{
+    position: absolute;
+    bottom: 0.6rem;
+    left: 50%;
+    margin-left: 0.2rem;
+    display: block;
+    width: 2.4rem;
+    height: 0.8rem;
+    background: url(../images/uodatePhoneEnsure.png) no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.pop_phoneUnionid .pop_phone_btn{
+    position: absolute;
+    bottom: 0.6rem;
+    left: 50%;
+    margin-left: -2.5rem;
+    display: block;
+    width:  2.4rem;
+    height: 0.8rem;
+    background: url(../images/uodatePhoneEnsure.png) no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.pop_introduce{
+  	display: none;
+    position: absolute;
+    width: 6.64rem;
+    height: 7.24rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.32rem;
+    margin-top: -3.62rem;
+    z-index: 1;
+    background: url(../images/pop_introduce_bg.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_introduce .pop_introduce_btn{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    margin-left: -.85rem;
+    display: block;
+    width: 1.7rem;
+    height: .61rem;
+    background: url(../images/pop_introduce_btn.png) no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.pop_introduce_pop{
+  	display: none;
+    position: absolute;
+    width: 6.61rem;
+    height: 9.38rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.3rem;
+    margin-top: -4.69rem;
+    z-index: 1;
+    background: url(../images/pop_introduce.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}

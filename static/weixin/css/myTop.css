@@ -1,0 +1,169 @@
+/* 排行 start */
+.pop_ph{
+	display:none;
+}
+.pop_ph .pop_ph_bg{
+	position: absolute;
+    bottom: 0.22rem;
+    width:1.73rem;
+    height:2.95rem;
+    left:49.5%;
+    z-index:2;
+}
+.pop_ph .pop_ph_content{
+	position: absolute;
+    width:6.79rem;
+    height:7.54rem;
+    left:50%;
+    top:50%;
+    margin-left:-3.39rem;
+    margin-top:-3.95rem;
+    background: url("../images/pop_ph_content.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index:1;
+}
+.pop_ph .pop_ph_content .last_time{
+    position: absolute;
+    top: .65rem;
+    left: 50%;
+    font-size: .24rem;
+    color: #fff;
+    width: 3.6rem;
+    margin-left: -1.8rem;
+}
+.pop_ph .pop_ph_content  .ph_list{
+	position: absolute;
+    left: 50%;
+    font-size: .24rem;
+    color: #fff;
+    width: 3.6rem;
+    margin-left: -1.8rem;
+}
+.pop_ph .pop_ph_content  .ph_list span{
+	float:left;
+}
+.pop_ph .pop_ph_content  .ph_list label{
+	float:right;
+}
+.pop_ph .pop_ph_content  .ph_list1{
+	top: 1.2rem;
+}
+.pop_ph .pop_ph_content  .ph_list2{
+	top: 1.45rem;
+}
+.pop_ph .pop_ph_content  .ph_list3{
+	top: 1.7rem;
+}
+.pop_ph .pop_ph_content .mytop_tab{
+	position: absolute;
+    width: 3.72rem;
+    top: 2.06rem;
+    left: 50%;
+    margin-left: -1.86rem;
+    height: .55rem;
+   
+}
+.pop_ph .pop_ph_content .mytop_tab .ph_tab_img{
+	width: 1.15rem;
+	height: .31rem;
+}
+.pop_ph .pop_ph_content .mytop_tab a{
+	display:inline-block;
+	width: 50%;
+    height: .55rem;
+    line-height:.75rem;
+    float: left;
+    text-align: center;
+}
+.pop_ph .pop_ph_content .mytop_tab a.hover{
+	background: url("../images/ph_tab_hover.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_ph .pop_ph_content .mytop_tab_con{
+	position: absolute;
+    top: 2.65rem;
+    left: 50%;
+    margin-left: -1.8rem;
+}
+.pop_ph .pop_ph_content .mytop_tab_con .mytop_tab_con1{
+	width:3.6rem;
+	height: 3.75rem;
+	overflow-x: hidden;
+    overflow-y: auto;
+    margin:.4rem auto 0 auto;
+   
+}
+.pop_ph .pop_ph_content .mytop_tab_con .mytop_tab_con2{
+	width:3.6rem;
+	height: 3.75rem;
+	overflow-x: hidden;
+    overflow-y: auto;
+    margin:.4rem auto 0 auto;
+    display:none;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul{
+	margin:0 auto;
+	width:3.6rem;
+	font-size: .18rem;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul li{
+	width:3.6rem;
+    height:.49rem;
+    line-height:.49rem;
+    margin-bottom:.05rem;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul li.mytop_odd{
+	background: url("../images/ph_table_bg1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul li.mytop_even{
+	background: url("../images/ph_table_bg2.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul li i{
+	display:inline-block;
+	width:.38rem;
+	height:.38rem;
+	line-height:.38rem;
+	text-align:center;
+	margin-left:.15rem;
+	margin-right:.15rem;
+    color:#fff;
+    font-size:.2rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    font-style:normal;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul li i.mytop_first{
+	background: url("../images/ph_title_btn1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul li i.mytop_second{
+	background: url("../images/ph_title_btn2.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul li i.mytop_three{
+	background: url("../images/ph_title_btn3.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul li i.mytop_other{
+	background: url("../images/ph_title_btn4.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul li span{
+	display:inline-block;
+    width: 1.92rem;
+    height: .48rem;
+    line-height: .48rem;
+    color: #000;
+    text-indent: .1rem;
+}
+.pop_ph .pop_ph_content .mytop_tab_con ul li label{
+    display: inline-block;
+    width: .85rem;
+    height: .48rem;
+    line-height: .48rem;
+    color: #000;
+    text-align: center;
+}
+/* 排行 end */

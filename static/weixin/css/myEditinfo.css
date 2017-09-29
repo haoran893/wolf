@@ -1,0 +1,146 @@
+.pop_edit_info{
+	display: none;
+    position: absolute;
+    width: 6.58rem;
+    height:3.0rem;
+    left: 50%;
+    top: 50%;
+    margin-left: -3.29rem;
+    margin-top: -3.64rem;
+    z-index: 1;
+    background: url(../images/bangshouji.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+.pop_edit_info input{
+	width: 3.4rem;
+    height: .4rem;
+    border: 0;
+    position: absolute;
+    text-indent: .1rem;
+    background: transparent;
+    color:#fff;
+}
+.pop_edit_info .phone{
+    width: 3.0rem;
+    height: .4rem;
+    top : 0.63rem;
+    left: 2.5rem;
+    border: 0;
+    position: absolute;
+    text-indent: .1rem;
+    background: transparent;
+    color:#fff;
+}
+
+.pop_edit_info .yzm{
+    width: 1.4rem;
+    height: .4rem;
+    top : 1.25rem;
+    left: 2.5rem;
+    border: 0;
+    position: absolute;
+    text-indent: .1rem;
+    background: transparent;
+    color:#fff;
+}
+
+.pop_edit_info .login_btn{
+    display: block;
+    position: absolute;
+    left: 37%;
+    top: 1.8rem;
+    width: 1.80rem;
+    height: 0.66rem;
+    background: url("../images/bangdingshouji.png") no-repeat center center;
+    background-size: 100% 100%;
+    font-size: 0.14rem;
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 0.55rem;
+    z-index: 2;
+}
+
+.pop_edit_info .vertify{
+    display: block;
+    position: absolute;
+    left: 60%;
+    top: 1.2rem;
+    width: 1.20rem;
+    height: .50rem;
+    background: url("../images/yzm.png") no-repeat center center;
+    background-size: 100% 100%;
+    font-size: 0.14rem;
+    color: #000;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 0.55rem;
+    z-index: 2;
+}
+
+
+
+
+.pop_edit_info select{
+	width: .85rem;
+    height: .44rem;
+    border: 0;
+    position: absolute;
+    top: 1.3rem;
+    left: 76%;
+    background: transparent;
+    color:#fff;
+}
+.pop_edit_info option{
+     color: #000;
+     background:#f2e2d3;
+ }
+.pop_edit_info input.edit_ktc{
+	    top: .6rem;
+    left: 28%;
+    width: 3.75rem;
+}
+.pop_edit_info input.edit_name{
+	top: 1.28rem;
+    left: 28%;
+    width: 1.3rem;
+}
+.pop_edit_info input.edit_sf{
+	    top: 1.9rem;
+    left: 50%;
+    width: 2.45rem;
+}
+.pop_edit_info input.edit_sfz{
+	    top: 2.55rem;
+    left: 35%;
+}
+.pop_edit_info input.edit_wx{
+	    top: 3.2rem;
+    left: 35%;
+}
+.pop_edit_info input.edit_qq{
+	    	top: 3.85rem;
+    left: 35%;
+}
+.pop_edit_info input.edit_email{
+	top: 4.48rem;
+    left: 35%;
+}
+.pop_edit_info input.edit_city{
+    top: 5.1rem;
+    left: 35%;
+    width: 1.6rem;
+}
+.pop_edit_info .pop_edit_btn{
+	position: absolute;
+    width: 1.76rem;
+    height: .68rem;
+    left: 50%;
+    margin-left:-.88rem;
+    bottom: .85rem;
+    z-index: 1;
+    background: url(../images/edit_btn.png) no-repeat center center;
+    background-size: 100% 100%;
+}
